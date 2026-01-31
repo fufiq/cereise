@@ -5,7 +5,11 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc -b",
-    "lint": "eslint . --ext .ts",
+    "dev": "tsc -b --watch",
     "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
   }
 }
