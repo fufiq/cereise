@@ -9,7 +9,9 @@
   "license": "ISC",
   "packageManager": "pnpm@10.28.2",
   "dependencies": {
-    "@editor/doc": "workspace:*"
+    "@editor/doc": "workspace:*",
+    "@editor/core": "workspace:*",
+    "@editor/adapter_html": "workspace:*"
   },
   "devDependencies": {
     "eslint": "^9.39.2",
